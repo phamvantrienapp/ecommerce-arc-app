@@ -1,15 +1,15 @@
 library app.ui.home;
 
-import 'package:ecommerce_app/navigation/app_router/app_router.dart';
-import 'package:ecommerce_app/resource/images/app_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:equatable/equatable.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:ecommerce_app/resource/images/app_icon.dart';
 import 'package:ecommerce_app/resource/styles/ui_colors.dart';
 import 'package:ecommerce_app/resource/styles/text_styles.dart';
 import 'package:ecommerce_app/resource/dimens/app_paddings.dart';
 import 'package:ecommerce_app/shared_view/category_box_item.dart';
+import 'package:ecommerce_app/navigation/app_router/app_router.dart';
 import 'package:ecommerce_app/common_view/boxse/common_text_box.dart';
 
 part 'views/home_page.dart';
