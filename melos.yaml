@@ -1,0 +1,49 @@
+name: ecommerce_app
+
+packages:
+  - app/**
+  - data/**
+  - domain/**
+  - initializer/**
+  - resources/**
+  - shared/**
+
+ignore:
+  # e.g. ignore example apps
+  # - 'packages/**/example'
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+
+scripts:
+  pub_get_app:
+    run: dart pub global run melos exec --fail-fast --scope="*app*" "flutter pub get"
+    description: pub get app module
+
+  pub_get_data:
+    run: dart pub global run melos exec --fail-fast --scope="*data*" "flutter pub get"
+    description: pub get data module
+
+  pub_get_domain:
+    run: dart pub global run melos exec --fail-fast --scope="*domain*" "flutter pub get"
+    description: pub get domain module
+
+  pub_get_ititialzer:
+    run: dart pub global run melos exec --fail-fast --scope="*initialzer*" "flutter pub get"
+    description: pub get initialzer module
+
+  pub_get_resources:
+    run: dart pub global run melos exec --fail-fast --scope="*resources*" "flutter pub get"
+    description: pub get resources module
+
+  pub_get_shared:
+    run: dart pub global run melos exec --fail-fast --scope="*shared*" "flutter pub get"
+    description: pub get shared module
+
+  gen_router:
+    run: |
+      cd app
+      flutter packages pub run build_runner watch
+      cd ../
+    description: gen app_router

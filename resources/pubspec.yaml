@@ -1,0 +1,15 @@
+name: resources_module
+
+description: resources module
+
+publish_to: "none"
+
+version: 0.0.1
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+  flutter: "3.10.1"
+
+dependency:
+
+dev_dependency:
