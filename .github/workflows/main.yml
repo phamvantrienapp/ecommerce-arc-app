@@ -24,11 +24,11 @@ jobs:
       - run: flutter build apk
       - run: flutter build appbundle
         
-#       - name: Create a Release APK
-#         uses: ncipollo/release-action@v1
-#         with:
-#           artifacts: "build/app/outputs/apk/debug/*.apk"
-#           token: ${{ secrets.ECOMMERCEARCTOKEN }}
+      - name: Create a Release APK
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "build/app/outputs/apk/debug/*.apk"
+          token: ${{ secrets.ECOMMERCEARCTOKEN }}
    
    
 # on: push
