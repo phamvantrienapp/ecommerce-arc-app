@@ -1,0 +1,22 @@
+name: data
+
+description: data module
+
+publish_to: none
+
+version: 0.0.1
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+  flutter: "3.10.1"
+
+# dependency_overrides:
+
+dependencies:
+  dio: ^5.2.1+1
+  domain:
+    path: ../domain
+  shared:
+    path: ../shared
+
+dev_dependencies:

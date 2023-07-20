@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ecommerce_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ecommerce_app_dev",
+            "request": "launch",
+            "type": "dart",
+            "program": "app/lib/main_dev.dart"
+        },
+        {
+            "name": "ecommerce_app_uat",
+            "request": "launch",
+            "type": "dart",
+            "program": "app/lib/main_uat.dart"
+        },
+        {
+            "name": "ecommerce_app_qa",
+            "request": "launch",
+            "type": "dart",
+            "program": "app/lib/main_qa.dart"
+        },
+        {
+            "name": "ecommerce_app_pro",
+            "request": "launch",
+            "type": "dart",
+            "program": "app/lib/main_pro.dart"
+        },
+        {
+            "name": "ecommerce_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ecommerce_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

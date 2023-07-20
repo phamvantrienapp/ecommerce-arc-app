@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "domain",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generated": "2023-06-16T18:28:57.499998Z",
+  "generator": "pub",
+  "generatorVersion": "3.0.1"
+}
