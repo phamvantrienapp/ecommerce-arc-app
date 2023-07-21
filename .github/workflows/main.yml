@@ -19,9 +19,33 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.10.1'
-      - run: flutter pub get
-      - run: flutter test
-      - run: flutter build apk
+      - run: 
+          cd data 
+          flutter pub get
+      - run: 
+          cd domain 
+          flutter pub get
+      - run: 
+          cd initializer 
+          flutter pub get
+      - run: 
+          cd resources 
+          flutter pub get
+      - run: 
+          cd shared 
+          flutter pub get
+      - run: 
+          cd app 
+          flutter pub get
+      - run: 
+          cd app 
+          flutter pub get
+      - run:
+          cd app
+          flutter test
+      - run:
+          cd app
+          flutter build apk
    
 # on: push
 # name: Test, Build and Release apk
